@@ -10,5 +10,4 @@ public class Data {
 		System.out.println("American Format: " + day + ", " + month + " " + date + "," + " " + year);
 		System.out.println("European Format: " + day + ", " + date + " " + month + ", " + year);
 	}
-
 }
