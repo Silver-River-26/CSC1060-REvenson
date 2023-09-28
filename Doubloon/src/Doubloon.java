@@ -1,16 +1,29 @@
 
 public class Doubloon {
 	public static void main(String[] args) {
-		String word = "noon";
+		
 
 	}
 
-	public static void isDoubloon(String word) {
+	public static boolean isDoubloon(Boolean doubloon) {
+		String word = "noonn";
 		for (int o = 0; o < word.length(); o++) {
+			int count = 0;
 			char letter = word.charAt(o);
 			for (int i = 0; i < word.length(); i++) {
-				if i = j true
+
+				char second = word.charAt(i);
+				if (letter == second) {
+					count += 1;
+				}
 			}
+			if (count == 2) {
+				true;
+			} else {
+				return false;
+			}
+
 		}
+		
 	}
 }
